@@ -1,0 +1,123 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header{
+    width: 100vw;
+    height: 70px;
+  }
+  .menu-main-div{
+    background-color:rgba(83, 83, 83, 0.64);
+    position: absolute;
+    top: 70px;
+    width: 100vw;
+  }
+  .header .top-menu .navbar-brand img{
+    width: 60%;
+  }
+  .top-menu ul li a {
+    padding-bottom: 0;
+    padding-left: 5% !important;
+  }
+  .top-menu ul li:last-child a{
+    padding-bottom: 2%;
+  }
+  .single-main {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .single-main h1{
+    font-size: 30px;
+  }
+  .single-main h3{
+  font-size: 20px;
+  }
+  .btn-slider{
+    padding: 10px;
+  }
+  .btn-carousel {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header{
+    width: 100vw;
+    height: 70px;
+  }
+  .menu-main-div{
+    background-color:rgba(83, 83, 83, 0.64);
+    position: absolute;
+    top: 70px;
+    width: 100vw;
+  }
+  .header .top-menu .navbar-brand img{
+    width: 70%;
+  }
+  .single-main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .single-main h1{
+    font-size: 40px;
+  }
+  .single-main h3{
+  font-size: 20px;
+  }
+  .btn-slider{
+    padding: 10px 15px;
+  }
+  .btn-carousel {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header{
+    width: 100vw;
+  }
+  .menu-main-div{
+    background-color:rgba(83, 83, 83, 0.64);
+    position: absolute;
+    top: 80px;
+    width: 100vw;
+  }
+  .header .top-menu .navbar-brand img{
+    width: 85%;
+  }
+  .single-main {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+  .single-main h1{
+    font-size: 50px;
+  }
+  .btn-slider{
+    padding: 10px 20px;
+  }
+  .btn-carousel {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .service-img img{
+    left: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
